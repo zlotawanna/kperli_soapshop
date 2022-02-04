@@ -9,14 +9,15 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
+
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Assortment
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Soaps</a></li>
-            <li><a class="dropdown-item" href="#">Shampoos</a></li>
-            <li><a class="dropdown-item" href="#">Peelings</a></li>
-            <li><a class="dropdown-item" href="#">Oils</a></li>
+            <li><%= link_to 'Soaps', products_path, class:"dropdown-item" %></li>
+            <li><%= link_to 'Shampoos', products_path, class:"dropdown-item" %></li>
+            <li><%= link_to 'Peelings', products_path, class:"dropdown-item" %></li>
+            <li><%= link_to 'Oils', products_path, class:"dropdown-item" %></li>
           </ul>
         </li>
         <li class="nav-item">
